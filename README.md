@@ -5,3 +5,5 @@ All photos are either creative commons useage, or made by me (Jalen walker) and 
 Enjoy, I guess.
 
 Depending on my final grade and the reception to this game, I may add more to it, or possibly work on it with other things, but this is it for now.
+
+Note that the improper formatting of the imgages is VERY intentional. I did not want the images to be correctly formatted
