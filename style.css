@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url('Jamaica_mob.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Jamaica_mob.png is the background image until the button begin is clicked. */

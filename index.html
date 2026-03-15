@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totally Illegal Mob Simulator</title>
+    <link rel="stylesheet" href="style.css" defer>
+</head> 
+<body>
+    <h1 class="start">Totally Illegal Mob Simulator</h1>
+    <div id="Start" class="start">
+        <input type="text" id="playerName" placeholder="Enter your player name">
+        <br>
+        <input type="button" id="EpN" value="Enter">        
+    </div>
+    
+    <button class="start" id="begin">Begin</button> 
+
+
+<!--Fight 1-->
+    <div id="game" style="display:none;">
+        <div class="F1">
+            <p>TlDR You work for the Jamaican mob. You are also trying to rig boxing matches in your favor. You'll get 3 choices, one good, one neutral, one bad. Make the right choices and you win. make the wrong ones and I don't think I have to say what happens.</p>
+            <div id="choiceSet1">
+                <input type="button" id="choice1-1" value="Put Horseshoes in your boxer's gloves">
+                <input type="button" id="choice1-2" value="Nothing">
+                <input type="button" id="choice1-3" value="Drug your boxer">
+            </div>
+
+            <div id="F1">
+                <p id="C1R"></p>
+            </div>
+
+            <div id="PoF1">
+                <p id="PoC1"></p>
+                <input type="button" id="continue1" value="continue">
+            </div>
+        </div>
+
+<!--Fight 2-->
+        <div id="G2" class="F2" style="display:none;">
+            <div id="choiceSet2">
+                <input type="button" id="choice2-1" value="Spike the other boxer's water with laxatives">
+                <input type="button" id="choice2-2" value="Nothing">
+                <input type="button" id="choice2-3" value="Spike your boxer's water with laxatives">
+            </div>
+        
+            <div id="F2">
+                <p id="C2R"></p>
+            </div>
+
+            <div id="PoF2">
+                <p id="PoC2"></p>
+                <input type="button" id="continue2" value="continue">
+            </div>
+        </div>
+
+<!--Fight 3-->
+        <div id="G3" class="F3" style="display:none;">
+            <div id="choiceSet3">
+                <input type="button" id="choice3-1" value="Shoot the other boxer's leg day of the fight">
+                <input type="button" id="choice3-2" value="Nothing">
+                <input type="button" id="choice3-3" value="Literally shoot your boxer in the leg 2 days before the fight">
+            </div>
+        
+            <div id="F3">
+                <p id="C3R"></p>
+            </div>
+
+            <div id="PoF3">
+                <p id="PoC3"></p>
+                <input type="button" id="continue3" value="continue">
+            </div>
+        </div>
+
+<!--Ending-->
+        <div id="Ending" class="Ending" style="display:none;">
+            <p id="end"></p>
+        </div>
+    </div>
+
+    <script src="script.js"defer></script>
+</body>
+</html>
