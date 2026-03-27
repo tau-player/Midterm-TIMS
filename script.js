@@ -9,7 +9,6 @@ let nameinput;
 
 para1.innerHTML = "Welcome to a low budget definitely legal sim " + nameinput + ". I suck at exposition (plus have a $0 budget, photos were made in MS paint.) so... have fun. I Guess.";
 
-
 button.addEventListener('click',function(){nameinput=playerName.value; console.log(nameinput)});
 button.addEventListener('click',function(){mydiv.append(para1)});
 button.addEventListener('clcick',function(){mydiv.append(startButton)});
@@ -26,9 +25,7 @@ function begin() {
     G.style.display = "block";
     body.style.backgroundImage = "url('Meeting_Room_Jamaica.png')";
     body.style.backgroundSize = "auto 100%";
-    body.style.backgroundColor = "black";
-    body.style.color = "white";
-
+    body.style.fontWeight = "bold";
 }
 // Script: https://stackoverflow.com/questions/56111480/how-can-i-hide-a-div-until-a-button-is-clicked
 
