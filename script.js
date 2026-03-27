@@ -26,7 +26,8 @@ function begin() {
     G.style.display = "block";
     body.style.backgroundImage = "url('Meeting_Room_Jamaica.png')";
     body.style.backgroundSize = "auto 100%";
-    body.style.color = "black";
+    body.style.backgroundColor = "black";
+    body.style.color = "white";
 
 }
 // Script: https://stackoverflow.com/questions/56111480/how-can-i-hide-a-div-until-a-button-is-clicked
