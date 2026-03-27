@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    color: white;
+    color: #ff0000;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     background-image: url('Jamaica_mob.png');
@@ -15,5 +15,4 @@ body{
     width: 70%;
     margin: 0 auto;
 }
-
 /* Jamaica_mob.png is the background image until the button begin is clicked. */
